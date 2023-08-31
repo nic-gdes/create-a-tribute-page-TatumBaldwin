@@ -2,6 +2,7 @@
 body {
     background-color: orange;
     margin: 15%;
+    margin-top: 0;
 }
 
 .main {
@@ -102,4 +103,34 @@ li:nth-child(odd) {
 
 li:nth-child(even) {
   background-color: rgba(255, 255, 255, 0);
+}
+
+
+@media screen and (min-width: 800px) {
+  
+body {
+  margin: 30%;
+  margin-top: 0;
+}
+
+#img-caption {
+  font-size: 100%;
+  color: white;
+  margin-bottom: 10%;
+  text-indent: 10%;
+}
+
+#tribute-info {
+  font-size: 100%;
+  color: white;
+  margin-bottom: 10%;
+  text-indent: 10%;
+}
+
+#tribute-link {
+font-size: 100%;
+color: white;
+margin-bottom: 10%;
+}
+
 }
