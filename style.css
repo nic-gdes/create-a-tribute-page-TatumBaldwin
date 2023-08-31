@@ -1,6 +1,7 @@
 
 body {
     background-color: orange;
+    margin: 20%;
 }
 
 .main {
@@ -9,7 +10,7 @@ body {
 }
 
 .title {
-    font-size: 50%;
+    font-size: 40%;
 }
 
 .lovelyfont {
@@ -21,17 +22,34 @@ body {
     border-bottom: 2px solid rgb(233, 233, 32);
 }
 
-.photo {
-    width: in;
+#image {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-.type {
-    font-size: 40%;
+#img-caption {
+    font-size: 85%;
     color: white;
+    margin-bottom: 10%;
+    text-indent: 10%;
 }
 
-.maintype {
-    font-size: 50%;
+#tribute-info {
+    font-size: 85%;
+    color: white;
+    margin-bottom: 10%;
+    text-indent: 10%;
+}
+
+#tribute-link {
+  font-size: 85%;
+  color: white;
+  margin-bottom: 10%;
+}
+
+a {
+  color: yellow;
 }
 
 .intro {
